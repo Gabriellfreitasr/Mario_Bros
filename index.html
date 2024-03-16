@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600&display=swap" rel="stylesheet" >
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" >
+
     <title> The Super Mario Bros </title>
 </head>
 <body>
@@ -43,8 +49,49 @@
             </div>
         </header>
 
-        
+        <main>
+          <div class="main_info">
+            <img 
+              data-aos="fade-up"
+              data-aos-duration="800"
+              data-aos-easing="ease-in-out"
+              src="assets/logo-movie.png" width="250px" alt="logo do filme">
+
+            <p
+              data-aos="fade-up"
+              data-aos-delay="200"
+              data-aos-duration="800"
+              data-aos-easing="ease-in-out"
+            > Um dia, Mario e Luigi vão para no reino dos cogumelos, governado pela Princesa Peach, 
+              mas ameaçado pelo rei dos Koopas, Bowser, que vai fazer de tudo para conseguir 
+              reinar todos os lugares. É então quando Luigi é raptado por Bowser e o usa para 
+              procurar Mario, o único capaz de deter o Koopa e reestabelecer a paz. </p>
+
+            <div
+              data-aos="fade-up"
+              data-aos-delay="400"
+              data-aos-duration="800"
+              data-aos-easing="ease-in-out"
+            >
+              <a href="https://youtu.be/wkn-Gb-Fhac?si=ZjrvAIdw6_jFTDMl" target="_blank"> Assistir Trailer </a>
+              <button> 
+                Comprar ingresso
+              </button>
+            </div>
+          </div>
+          <img 
+            data-aos="fade-up"
+            data-aos-delay="500"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-out"
+          src="assets/mario-and-luigi.png" width="500px" alt="mario e luigi">
+        </main>
     </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     
 </body>
 </html>
